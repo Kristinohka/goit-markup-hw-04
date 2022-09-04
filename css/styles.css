@@ -176,7 +176,7 @@ color:var(--logo-cl);
 .main-foto{
     margin-left: auto;
     margin-right: auto;
-    min-width: 1600px;
+    max-width: 1600px;
     min-height: 600px;
     background-repeat: no-repeat;
     background-color: var(--hero-cl);
@@ -569,7 +569,9 @@ margin-right: 0;
     background-color: var(--accent-cl);
     color:var(--title-cl);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
- }
+ 
+
+}
 
  .portfolio-list{
     display: flex;
